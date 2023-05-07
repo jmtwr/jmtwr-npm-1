@@ -1,0 +1,11 @@
+{
+  "name": "my-lib-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "build": "rm -rf dist/lib && tsc"
+  }
+}
